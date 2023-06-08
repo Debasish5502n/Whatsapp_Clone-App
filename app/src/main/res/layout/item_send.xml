@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:background="@drawable/send_drawable"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:layout_width="250dp"
+            android:layout_height="250dp">
+        <ImageView
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:fitsSystemWindows="true"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/avatar" />
+        </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/massage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/send_drawable"
+            android:paddingStart="15dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+      <ImageView
+          android:id="@+id/feeling"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:visibility="gone"
+          android:layout_gravity="center"
+          app:srcCompat="@drawable/smill1" />
+</LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/drawable/circle_bg.xml" value="0.20854700854700856" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/drawable/circle_green.xml" value="0.20854700854700856" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/drawable/receive_drawable.xml" value="0.20854700854700856" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/drawable/search.xml" value="0.20854700854700856" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/drawable/send_drawable.xml" value="0.20854700854700856" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_editprofile.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_groupchat.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_image_acivity.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_imageprofile.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_otp.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_phone_number.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_search.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_show_status.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/activity_user_profile.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/call_layout.xml" value="0.536" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/delete_dialog.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/demo_layout.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/fragment_call.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/fragment_chats_fregment.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/fragment_status.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/item_receive.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/item_receive_group.xml" value="0.4" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/item_send.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/item_send_group.xml" value="0.4" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/item_status.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/row_conversation.xml" value="0.2" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/sample.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/layout/show_status.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/menu/searchmenu.xml" value="0.1952991452991453" />
+        <entry key="..\:/Androidstudio(3)/Friendship Forever/app/src/main/res/menu/topmenu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".Activitys.ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_arrow"
+            android:layout_gravity="center_vertical"
+            app:tint="@color/white" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/avatar"
+            android:layout_gravity="center_vertical"
+            app:tint="@color/white" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Debasish Sahoo"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:text="online"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar" />
+    <ImageView
+        android:id="@+id/sendbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/circle_green"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:srcCompat="@drawable/send1"
+        app:tint="@color/white" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:elevation="8dp"
+        android:padding="8dp"
+        app:cardCornerRadius="30sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendbtn"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/smsbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Type a sms....."
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/attachment"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/camera" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:foregroundGravity="top"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

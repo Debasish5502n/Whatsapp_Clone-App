@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691353735130",
+    "project_id": "friendship-forever-18b9c",
+    "storage_bucket": "friendship-forever-18b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691353735130:android:3d1634e7f94b0b41347ae3",
+        "android_client_info": {
+          "package_name": "com.example.friendshipforever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691353735130-0tvl3vsjchrmthae3iacidkf8ulrup9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsWvGvs2z4R4BLkBhoOt06F2v5hwsshOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691353735130-0tvl3vsjchrmthae3iacidkf8ulrup9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
